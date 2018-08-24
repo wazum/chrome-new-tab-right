@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Open new tab next to active tab",
+  "description": "Opens new tabs on the right side of the currently active tab.",
+  "author": "Wolfgang Klinger",
+  "version": "0.1",
+  "permissions": [ "tabs" ],
+  "background": {
+  	  "scripts": [ "background.js" ]
+  }
+}
